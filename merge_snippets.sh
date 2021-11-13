@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# parse command line parameters
 if [ $# -ne 1 ]; then
     echo -e "Usage:"
     echo -e "    $ ./merge_snippets.sh new_hosts\n"
